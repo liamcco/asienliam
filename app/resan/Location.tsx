@@ -6,6 +6,8 @@ interface Props {
 }
 
 export default function Location(props: Props) {
+  const current = <p className="text-gray-600">CURRENTLY IN</p>;
+
   return (
     <div className="flex items-center">
       <div className="p-4">
@@ -13,7 +15,7 @@ export default function Location(props: Props) {
       </div>
       <div>
         <h1 className="font-bold">{props.city}</h1>
-        <p>{props.duration}</p>
+        {props.duration == "" ? current : <p>{props.duration}</p>}
       </div>
     </div>
   );

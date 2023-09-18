@@ -1,0 +1,35 @@
+[
+    {
+        "city": "Dalat",
+        "country": "Vietnam",
+        "duration": "26 SEP"
+    },
+    {
+        "city": "Mui ne",
+        "country": "Vietnam",
+        "duration": "27 SEP"
+    },
+    {
+        "city": "Nha Trang",
+        "country": "Vietnam",
+        "duration": "30 SEP"
+    },
+    {
+        "city": "Hanoi",
+        "country": "Vietnam",
+        "duration": "14 OCT"
+    },
+    {
+        "country": "Laos",
+        "duration": "NOV"
+    },
+    {
+        "country": "Cambodia",
+        "duration": "NOV - DEC"
+    },
+    {
+        "country": "Nya Zealand",
+        "duration": "24 DEC"
+    }
+    
+]
