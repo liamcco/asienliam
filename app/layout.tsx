@@ -17,8 +17,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="flex flex-col min-h-screen p-8 md:p-24">
-          <nav className="flex-none mb-8">
+        <div className="flex flex-col max-w-5xl min-h-screen p-8 md:p-24 mx-auto">
+          <nav className="flex-none mb-16">
             <div className="font-bold font-mono">
               <h1 className="text-4xl mb-4">
                 <a href="/">@asienliam</a>
@@ -36,7 +36,7 @@ export default function RootLayout({
               </ul>
             </div>
           </nav>
-          <main className="flex-grow max-w-5xl font-mono text-sm flex flex-col">
+          <main className="flex-grow font-mono text-sm flex flex-col">
             {children}
           </main>
         </div>

@@ -1,14 +1,27 @@
 [
-        {
-            "city": "Ho Chi Minh City",
-            "country": "Vietnam",
-            "start": "14-09-2023",
-            "end": ""
-        },
-        {
-            "city": "Åmål",
-            "country": "Sweden",
-            "start": "",
-            "end": "12-09-2023"
-        }
+    {
+        "city": "Ho Chi Minh City",
+        "country": "Vietnam",
+        "duration": ""
+    },
+    {
+        "city": "Manila",
+        "country": "Filippinerna",
+        "duration": "13 SEP - 14 SEP"
+    },
+    {
+        "city": "Singapore",
+        "country": "Singapore",
+        "duration": "13 SEP"
+    },
+    {
+        "city": "Frankfurt",
+        "country": "Tyskland",
+        "duration": "12 SEP"
+    },
+    {
+        "city": "Göteborg",
+        "country": "Sweden",
+        "duration": "12 SEP"
+    }
 ]
