@@ -17,11 +17,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <div className="min-h-screen flex flex-col p-8 md:p-24">
-          <nav className="mb-8">
+        <div className="flex flex-col min-h-screen p-8 md:p-24">
+          <nav className="flex-none mb-8">
             <div className="font-bold font-mono">
-              <h1 className="text-4xl mb-4">@asienliam</h1>
-              <ul className="flex justify-around h-full">
+              <h1 className="text-4xl mb-4">
+                <a href="/">@asienliam</a>
+              </h1>
+              <ul className="flex justify-around max-w-sm">
                 <li>
                   <a href="/resan">Resan</a>
                 </li>
@@ -34,8 +36,8 @@ export default function RootLayout({
               </ul>
             </div>
           </nav>
-          <main className="my-auto">
-            <div className="max-w-5xl font-mono text-sm">{children}</div>
+          <main className="flex-grow max-w-5xl font-mono text-sm flex flex-col">
+            {children}
           </main>
         </div>
       </body>
