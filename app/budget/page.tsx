@@ -2,6 +2,7 @@ import ItemCard from "./ItemCard";
 import { FaLocationArrow } from "react-icons/fa";
 
 export default function Page() {
+  return <p className="m-auto">Under construction...</p>;
   return (
     <div>
       <div className="pb-16">

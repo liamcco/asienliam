@@ -16,6 +16,8 @@ export default function Page() {
 
   const itinerary = addBorderChanges(plan, initialItinerary);
 
+  return <p className="m-auto">Under construction...</p>;
+
   return (
     <div className="w-full">
       <div className="space-y-4">
