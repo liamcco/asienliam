@@ -1,0 +1,38 @@
+{
+    "countries": [
+        {
+            "name": "Vietnam",
+            "prices": [
+                {
+                    "name": "Ban Mi",
+                    "type": "food",
+                    "price": 12,
+                    "rating": 3
+                },
+                {
+                    "name": "Ca phe sua da",
+                    "type": "drink",
+                    "price": 9,
+                    "rating": 5
+                }
+            ]
+        },
+        {
+            "name": "Thailand",
+            "prices": [
+                {
+                    "name": "Thai food",
+                    "type": "food",
+                    "price": 15,
+                    "rating": 4
+                },
+                {
+                    "name": "Beer",
+                    "type": "drink",
+                    "price": 14,
+                    "rating": 3
+                }
+            ]
+        }
+    ]
+}
