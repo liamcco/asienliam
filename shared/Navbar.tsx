@@ -1,6 +1,6 @@
 export default function Navbar() {
   return (
-    <nav className="flex-none mb-16">
+    <nav className="flex-none mb-8">
       <div className="font-bold font-mono">
         <h1 className="text-4xl mb-4">
           <a href="/">@asienliam</a>
