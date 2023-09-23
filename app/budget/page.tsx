@@ -1,6 +1,8 @@
 import ItemCard from "./ItemCard";
 import budget from "./budget.json";
 
+type Category = "food" | "drinks" | "accomodation" | "various";
+
 export default function Page() {
   return (
     <div className="space-y-8">
@@ -10,7 +12,11 @@ export default function Page() {
         <p>Det är kul, jag lovar!</p>
       </div>
       {budget.map((item, index) => (
-        <ItemCard key={index} prices={item.prices} category={item.name} />
+        <ItemCard
+          key={index}
+          prices={item.prices}
+          category={item.name as Category}
+        />
       ))}
     </div>
   );
