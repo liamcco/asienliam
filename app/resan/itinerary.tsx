@@ -1,7 +1,6 @@
 type Location = {
   country: string;
   city?: string;
-  duration: string;
 };
 
 export function addBorderChanges(

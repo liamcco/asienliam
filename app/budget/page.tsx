@@ -1,34 +1,28 @@
 import ItemCard from "./ItemCard";
-import { FaLocationArrow } from "react-icons/fa";
+import budget from "./budget.json";
+
+type Category = "food" | "drinks" | "accomodation" | "various";
 
 export default function Page() {
   return <p className="m-auto">Under construction...</p>;
   return (
-    <div>
-      <div className="pb-16">
-        <div className="pb-8">
-          <hr className="border-black" />
-          <div className="flex items-center gap-2">
-            <FaLocationArrow size={20} />
-            <h1 className="text-3xl font-serif">VIETNAM</h1>
-          </div>
+    <div className="w-full max-w-md mx-auto">
+      <div className="space-y-8">
+        <div className="text-center">
+          <h1 className="text-4xl font-bold">Kostnader</h1>
+          <p>
+            Nedan listas några av mina dagliga kostander. Köp en öl till mig!
+          </p>
+          <p>(Det är kul, jag lovar!)</p>
         </div>
-        <div className="space-y-8">
-          <ItemCard name={"Ban mi"} price={10} type={"food"} />
-          <ItemCard name={"Ban mi"} price={10} type={"food"} />
-          <ItemCard name={"Ban mi"} price={10} type={"food"} />
-        </div>
-      </div>
-      <div className="pb-16">
-        <div className="pb-8">
-          <hr className="border-black" />
-          <h1 className="text-3xl font-serif">THAILAND</h1>
-        </div>
-        <div className="space-y-8">
-          <ItemCard name={"Ban mi"} price={10} type={"food"} />
-          <ItemCard name={"Ban mi"} price={10} type={"food"} />
-          <ItemCard name={"Ban mi"} price={10} type={"food"} />
-        </div>
+        {budget.map((item, index) => (
+          <ItemCard
+            key={index}
+            prices={item.prices}
+            category={item.name as Category}
+            color={item.color}
+          />
+        ))}
       </div>
     </div>
   );

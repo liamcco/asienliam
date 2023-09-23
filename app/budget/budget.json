@@ -1,38 +1,58 @@
-{
-    "countries": [
-        {
-            "name": "Vietnam",
-            "prices": [
-                {
-                    "name": "Ban Mi",
-                    "type": "food",
-                    "price": 12,
-                    "rating": 3
-                },
-                {
-                    "name": "Ca phe sua da",
-                    "type": "drink",
-                    "price": 9,
-                    "rating": 5
-                }
-            ]
-        },
-        {
-            "name": "Thailand",
-            "prices": [
-                {
-                    "name": "Thai food",
-                    "type": "food",
-                    "price": 15,
-                    "rating": 4
-                },
-                {
-                    "name": "Beer",
-                    "type": "drink",
-                    "price": 14,
-                    "rating": 3
-                }
-            ]
-        }
-    ]
-}
+[
+    {
+        "name": "food",
+        "color": "rgb(251 113 133)",
+        "prices": [
+            {
+                "name": "Street food",
+                "price": 12
+            },
+            {
+                "name": "Resturant",
+                "price": 45
+            }
+        ]
+    },
+    {
+        "name": "drinks",
+        "color": "rgb(59 130 246)",
+        "prices": [
+            {
+                "name": "Beer",
+                "price": 9
+            },
+            {
+                "name": "Coffee",
+                "price": 17
+            }
+        ]
+    },
+    {
+        "name": "accomodation",
+        "color": "rgb(252 211 77)",
+        "prices": [
+            {
+                "name": "Hostel",
+                "price": 50
+            },
+            {
+                "name": "Hotel",
+                "price": 150
+            }
+        ]
+    },
+    {
+        "name": "various",
+        "color": "rgb(110 231 183)",
+        "prices": [
+            {
+                "name": "Full tank",
+                "price": 40
+            },
+            {
+                "name": "Massage",
+                "price": 90
+            }
+        ]
+    }
+]

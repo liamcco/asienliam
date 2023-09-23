@@ -1,6 +1,8 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
+import Navbar from "@/shared/Navbar";
+import Footer from "@/shared/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,27 +20,11 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <div className="flex flex-col max-w-5xl min-h-screen p-8 md:p-24 mx-auto">
-          <nav className="flex-none mb-16">
-            <div className="font-bold font-mono">
-              <h1 className="text-4xl mb-4">
-                <a href="/">@asienliam</a>
-              </h1>
-              <ul className="flex justify-around max-w-sm">
-                <li>
-                  <a href="/resan">Resan</a>
-                </li>
-                <li>
-                  <a href="/planen">Planen</a>
-                </li>
-                <li>
-                  <a href="/budget">Budget</a>
-                </li>
-              </ul>
-            </div>
-          </nav>
-          <main className="flex-grow font-mono text-sm flex flex-col">
+          <Navbar />
+          <main className="flex-grow font-mono text-sm flex flex-col mb-8">
             {children}
           </main>
+          <Footer />
         </div>
       </body>
     </html>
