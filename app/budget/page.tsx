@@ -4,6 +4,7 @@ import budget from "./budget.json";
 type Category = "food" | "drinks" | "accomodation" | "various";
 
 export default function Page() {
+  return <p className="m-auto">Under construction...</p>;
   return (
     <div className="w-full max-w-md mx-auto">
       <div className="space-y-8">

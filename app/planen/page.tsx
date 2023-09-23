@@ -1,6 +1,7 @@
 import plan from "./plan.json";
 
 export default function Page() {
+
   return (
     <div className="w-full">
       <div className="space-y-4">
