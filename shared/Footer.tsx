@@ -5,7 +5,7 @@ import { FaSnapchatGhost } from "react-icons/fa";
 export default function Footer() {
   return (
     <footer className="font-mono">
-      <div className="flex justify-around max-w-sm">
+      <div className="flex justify-between w-max-sm">
         <a href="https://www.youtube.com/@liamcotton">
           <FaYoutube size={30} />
         </a>

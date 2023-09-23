@@ -1,6 +1,7 @@
 [
     {
         "name": "food",
+        "color": "rgb(251 113 133)",
         "prices": [
             {
                 "name": "Street food",
@@ -14,6 +15,7 @@
     },
     {
         "name": "drinks",
+        "color": "rgb(59 130 246)",
         "prices": [
             {
                 "name": "Beer",
@@ -27,6 +29,7 @@
     },
     {
         "name": "accomodation",
+        "color": "rgb(252 211 77)",
         "prices": [
             {
                 "name": "Hostel",
@@ -40,6 +43,7 @@
     },
     {
         "name": "various",
+        "color": "rgb(110 231 183)",
         "prices": [
             {
                 "name": "Full tank",

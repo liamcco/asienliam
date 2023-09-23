@@ -6,7 +6,7 @@ import { MdSportsGymnastics } from "react-icons/md";
 interface Props {
   category: "food" | "drinks" | "various" | "accomodation";
   prices: Price[];
-  color?: string;
+  color: string;
 }
 
 type Price = {
@@ -25,7 +25,7 @@ export default function ItemCard(props: Props) {
   return (
     <div className="bg-gray-200 p-4 rounded-lg px-8 max-w-md mx-auto">
       <div className="flex gap-4 items-center mb-4">
-        <div className="rounded-full p-3 bg-yellow-300">
+        <div className="rounded-full p-3" style={{ background: props.color }}>
           {icons[props.category]}
         </div>
         <h2 className="font-bold text-xl">{props.category.toUpperCase()}</h2>

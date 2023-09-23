@@ -10,7 +10,7 @@ export default function Page() {
   let itinerary = addBorderChanges(trip, initialItinerary);
 
   return (
-    <div className="mt-8 w-full">
+    <div className="mt-8 w-full max-w-md mx-auto">
       <div className="space-y-4">
         {itinerary.map((item, index) => (
           <div key={index}>{item}</div>

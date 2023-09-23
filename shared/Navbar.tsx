@@ -5,7 +5,7 @@ export default function Navbar() {
         <h1 className="text-4xl mb-4">
           <a href="/">@asienliam</a>
         </h1>
-        <ul className="flex justify-around max-w-sm">
+        <ul className="flex justify-between">
           <li>
             <a href="/resan">Resan</a>
           </li>
