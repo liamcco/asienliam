@@ -1,35 +1,53 @@
 [
     {
-        "city": "Dalat",
         "country": "Vietnam",
-        "duration": "26 SEP"
-    },
-    {
-        "city": "Mui ne",
-        "country": "Vietnam",
-        "duration": "27 SEP"
-    },
-    {
-        "city": "Nha Trang",
-        "country": "Vietnam",
-        "duration": "30 SEP"
-    },
-    {
-        "city": "Hanoi",
-        "country": "Vietnam",
-        "duration": "14 OCT"
+        "cities": [
+            {
+                "name": "Mui Ne",
+                "date": "24 SEP"
+            },
+            {
+                "name": "Da Lat",
+                "date": "26 SEP"
+            },
+            {
+                "name": "Nha Trang",
+                "date": "28 SEP"
+            },
+            {
+                "name": "Tuy Hoa",
+                "date": "1 OKT"
+            },
+            {
+                "name": "Quy Nhon",
+                "date": "2 OKT"
+            },
+            {
+                "name": "Hoi An",
+                "date": "6 OKT"
+            },
+            {
+                "name": "Hanoi",
+                "date": "24 OKT"
+            }
+        ]
     },
     {
         "country": "Laos",
-        "duration": "NOV"
-    },
-    {
-        "country": "Cambodia",
-        "duration": "NOV - DEC"
+        "cities": [
+            {
+                "name": "Luang Prabang",
+                "date": "29 OKT"
+            }
+        ]
     },
     {
         "country": "Nya Zealand",
-        "duration": "24 DEC"
+        "cities": [
+            {
+                "name": "Wellington",
+                "date": "24 DEC"
+            }
+        ]
     }
-    
 ]

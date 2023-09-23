@@ -3,7 +3,7 @@ import { FaMapPin } from "react-icons/fa";
 interface Props {
   city?: string;
   country: string;
-  duration: string;
+  date?: string;
 }
 
 export default function FutureLocation(props: Props) {
@@ -16,7 +16,7 @@ export default function FutureLocation(props: Props) {
         <h1 className="font-bold">
           {props.city ?? props.country.toUpperCase()}
         </h1>
-        <p>~{props.duration}~</p>
+        <p>{props.date}</p>
       </div>
     </div>
   );

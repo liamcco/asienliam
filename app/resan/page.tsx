@@ -1,6 +1,6 @@
 import trip from "./trip.json";
 import Location from "./Location";
-import { addBorderChanges } from "@/utilites/itinerary";
+import { addBorderChanges } from "./itinerary";
 
 export default function Page() {
   const initialItinerary = trip.map((item, index) => {
