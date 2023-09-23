@@ -42,6 +42,24 @@
         ]
     },
     {
+        "country": "Kambodja",
+        "cities": [
+            {
+                "name": "Phnom Penh",
+                "date": "18 NOV"
+            }
+        ]
+    },
+    {
+        "country": "Thailand",
+        "cities": [
+            {
+                "name": "Bangkok",
+                "date": "15 DEC"
+            }
+        ]
+    },
+    {
         "country": "Nya Zealand",
         "cities": [
             {

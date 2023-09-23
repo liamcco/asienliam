@@ -1,4 +1,3 @@
-import { maxHeaderSize } from "http";
 import plan from "./plan.json";
 
 export default function Page() {
@@ -15,7 +14,7 @@ export default function Page() {
                 <div
                   key={subindex}
                   className={
-                    "flex gap-8 justify-between px-8 py-2 my-2 rounded-md " +
+                    "flex gap-8 justify-between px-8 py-2 my-2 border rounded-md " +
                     "bg-gray-" +
                     Math.max(100, 400 - index * 100)
                   }
