@@ -1,8 +1,13 @@
 [
     {
-        "city": "Ho Chi Minh City",
+        "city": "Mui Ne",
         "country": "Vietnam",
         "duration": ""
+    },
+    {
+        "city": "Ho Chi Minh City",
+        "country": "Vietnam",
+        "duration": "14 SEP - 24 SEP"
     },
     {
         "city": "Göteborg",
