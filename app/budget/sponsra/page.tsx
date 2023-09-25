@@ -1,16 +1,10 @@
-"use client";
-
-import { useSearchParams } from "next/navigation";
+import Image from "next/image";
+import swish from "@/public/assets/swish.png";
 
 export default function Page() {
-  const searchParams = useSearchParams();
-  const name = searchParams.get("name");
-  const price = searchParams.get("price");
-
   return (
-    <div>
-      <p>Name: {name}</p>
-      <p>Price: {price}</p>
+    <div className="w-full h-full my-auto">
+      <Image quality={100} src={swish} alt={"Swish"} />
     </div>
   );
 }
