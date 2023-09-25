@@ -12,7 +12,7 @@ export default function Page() {
           <p>
             Nedan listas några av mina dagliga kostander. Köp en öl till mig!
           </p>
-          <p>(Under construction!)</p>
+          <p>(Det är kul, jag lovar!)</p>
         </div>
         {budget.map((item, index) => (
           <ItemCard
