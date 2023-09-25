@@ -1,10 +1,13 @@
 import Image from "next/image";
 import swish from "@/public/assets/swish.png";
+import swishinfo from "@/public/assets/swishinfo.png";
+import swishbutton from "@/public/assets/swishbutton.png";
 
 export default function Page() {
   return (
-    <div className="w-full h-full my-auto">
-      <Image quality={100} src={swish} alt={"Swish"} />
+    <div className="w-full h-full m-auto space-y-6 max-w-md">
+      <Image quality={100} src={swishinfo} alt={"Swish info"} />
+      <Image quality={100} src={swishbutton} alt={"Swish button"} />
       <p className="pt-2 text-center">
         Att skänka en öl eller kaffe är mycket enkelt. Alla bidrag besvaras
         personligen med ett inlägg på{" "}
