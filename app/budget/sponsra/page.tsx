@@ -1,16 +1,21 @@
-"use client";
-
-import { useSearchParams } from "next/navigation";
+import Image from "next/image";
 
 export default function Page() {
-  const searchParams = useSearchParams();
-  const name = searchParams.get("name");
-  const price = searchParams.get("price");
-
   return (
-    <div>
-      <p>Name: {name}</p>
-      <p>Price: {price}</p>
+    <div className="w-full h-full m-auto space-y-6 max-w-md">
+      <Image quality={100} src={"/assets/swishinfo.png"} alt={"Swish info"} />
+      <Image
+        quality={100}
+        src={"/assets/swishbutton.png"}
+        alt={"Swish button"}
+      />
+      <p className="pt-2 text-center">
+        Att skänka en öl eller kaffe är mycket enkelt. Alla bidrag besvaras
+        personligen med ett inlägg på{" "}
+        <a href="https://instagram.com/asienliam" className="font-bold">
+          @asienliam
+        </a>
+      </p>
     </div>
   );
 }

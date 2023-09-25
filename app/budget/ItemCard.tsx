@@ -35,7 +35,10 @@ export default function ItemCard(props: Props) {
         {props.prices.map((price, index) => (
           <div key={index} className="flex justify-between w-full items-center">
             <h2 className="font-bold">{price.name}</h2>
-            <a href="/" className="p-2 rounded-md bg-blue-300 shadow-md">
+            <a
+              href="/budget/sponsra"
+              className="p-2 rounded-md bg-blue-300 shadow-md"
+            >
               <p>{price.price} kr</p>
             </a>
           </div>

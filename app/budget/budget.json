@@ -23,7 +23,7 @@
             },
             {
                 "name": "Coffee",
-                "price": 17
+                "price": 7
             }
         ]
     },
@@ -33,11 +33,11 @@
         "prices": [
             {
                 "name": "Hostel",
-                "price": 50
+                "price": 30
             },
             {
                 "name": "Hotel",
-                "price": 150
+                "price": 100
             }
         ]
     },
