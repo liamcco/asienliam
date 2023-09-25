@@ -4,7 +4,14 @@ import { addBorderChanges } from "./itinerary";
 
 export default function Page() {
   const initialItinerary = trip.map((item, index) => {
-    return <Location city={item.city} duration={item.duration} key={index} />;
+    return (
+      <Location
+        city={item.city}
+        duration={item.duration}
+        key={index}
+        image={item.image}
+      />
+    );
   });
 
   let itinerary = addBorderChanges(trip, initialItinerary);
