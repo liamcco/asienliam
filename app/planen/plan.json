@@ -107,20 +107,65 @@
         ]
     },
     {
-        "country": "Thailand",
-        "cities": [
-            {
-                "name": "Bangkok",
-                "date": "15 DEC"
-            }
-        ]
-    },
-    {
         "country": "Nya Zealand",
         "cities": [
             {
                 "name": "Wellington",
                 "date": "24 DEC"
+            }
+        ]
+    },
+    {
+        "country": "Thailand",
+        "cities": [
+            {
+                "name": "Bangkok",
+                "date": "15 JAN"
+            }
+        ]
+    },
+    {
+        "country": "Malaysia",
+        "cities": [
+            {
+                "name": "Kuala Lumpur",
+                "date": "29 FEB"
+            }
+        ]
+    },
+    {
+        "country": "Singapore",
+        "cities": [
+            {
+                "name": "Singapore",
+                "date": "25 MAR"
+            }
+        ]
+    },
+    {
+        "country": "Indonesien",
+        "cities": [
+            {
+                "name": "Jakarta",
+                "date": " 29 MAR"
+            }
+        ]
+    },
+    {
+        "country": "Filippinerna",
+        "cities": [
+            {
+                "name": "Manila",
+                "date": "29 APR"
+            }
+        ]
+    },
+    {
+        "country": "Taiwan",
+        "cities": [
+            {
+                "name": "Tai Pei",
+                "date": "29 MAJ"
             }
         ]
     }
