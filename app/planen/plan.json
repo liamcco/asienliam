@@ -3,24 +3,20 @@
         "country": "Vietnam",
         "cities": [   
             {
-                "name": "Da Lat",
-                "date": "26 SEP"
-            },
-            {
                 "name": "Nha Trang",
-                "date": "27 SEP"
-            },
-            {
-                "name": "Quy Nhon",
                 "date": "28 SEP"
             },
             {
-                "name": "Kon Tum",
+                "name": "Quy Nhon",
                 "date": "29 SEP"
             },
             {
-                "name": "Hoi An",
+                "name": "Kon Tum",
                 "date": "30 SEP"
+            },
+            {
+                "name": "Hoi An",
+                "date": "1 OKT"
             },
             {
                 "name": "Hue",
