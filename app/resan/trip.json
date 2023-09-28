@@ -1,13 +1,19 @@
 [
     {
-        "city": "Da Lat",
+        "city": "Nha Trang",
         "country": "Vietnam",
         "duration": ""
     },
     {
+        "city": "Da Lat",
+        "country": "Vietnam",
+        "duration": "26 SEP - 28 SEP"
+    },
+    {
         "city": "Mui Ne",
         "country": "Vietnam",
-        "duration": "24 SEP - 26 SEP"
+        "duration": "24 SEP - 26 SEP",
+        "image": "muine.jpg"
     },
     {
         "city": "Ho Chi Minh City",
