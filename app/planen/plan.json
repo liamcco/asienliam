@@ -1,15 +1,7 @@
 [
     {
         "country": "Vietnam",
-        "cities": [   
-            {
-                "name": "Da Lat",
-                "date": "26 SEP"
-            },
-            {
-                "name": "Nha Trang",
-                "date": "27 SEP"
-            },
+        "cities": [
             {
                 "name": "Quy Nhon",
                 "date": "28 SEP"
