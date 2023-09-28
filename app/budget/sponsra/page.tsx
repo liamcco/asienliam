@@ -5,7 +5,7 @@ export default function Page() {
     <div className="w-full h-full m-auto space-y-6 max-w-md">
       <Image
         quality={100}
-        src={"/assets/swishinfo.png"}
+        src="/assets/swishinfo.PNG"
         alt={"Swish info"}
         width={0}
         height={0}
@@ -14,7 +14,7 @@ export default function Page() {
       />
       <Image
         quality={100}
-        src={"/assets/swishbutton.png"}
+        src="/assets/swishbutton.PNG"
         alt={"Swish button"}
         width={0}
         height={0}
