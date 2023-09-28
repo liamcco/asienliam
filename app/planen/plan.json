@@ -1,6 +1,7 @@
 [
     {
         "country": "Vietnam",
+        "cities": [
             {
                 "name": "Quy Nhon",
                 "date": "29 SEP"
