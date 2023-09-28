@@ -1,11 +1,13 @@
 import Image from "next/image";
+import swishinfo from "@/public/assets/swishinfo.png";
+import swishbutton from "@/public/assets/swishbutton.png";
 
 export default function Page() {
   return (
     <div className="w-full h-full m-auto space-y-6 max-w-md">
       <Image
         quality={100}
-        src={"/assets/swishinfo.png"}
+        src={swishinfo}
         alt={"Swish info"}
         width={0}
         height={0}
@@ -14,7 +16,7 @@ export default function Page() {
       />
       <Image
         quality={100}
-        src={"/assets/swishbutton.png"}
+        src={swishbutton}
         alt={"Swish button"}
         width={0}
         height={0}
