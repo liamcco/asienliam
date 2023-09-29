@@ -6,12 +6,14 @@
     {
         "city": "Nha Trang",
         "country": "Vietnam",
-        "duration": "28 SEP - 29 SEP"
+        "duration": "28 SEP - 29 SEP",
+        "image": "nhatrang.jpg"
     },
     {
         "city": "Da Lat",
         "country": "Vietnam",
-        "duration": "26 SEP - 28 SEP"
+        "duration": "26 SEP - 28 SEP",
+        "image": "dalat.jpg"
     },
     {
         "city": "Mui Ne",
