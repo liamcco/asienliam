@@ -1,8 +1,12 @@
 [
     {
+        "city": "Quy Nhon",
+        "country": "Vietnam"
+    }
+    {
         "city": "Nha Trang",
         "country": "Vietnam",
-        "duration": ""
+        "duration": "28 SEP - 29 SEP"
     },
     {
         "city": "Da Lat",
