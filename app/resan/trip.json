@@ -1,7 +1,8 @@
 [
     {
         "city": "Quy Nhon",
-        "country": "Vietnam"
+        "country": "Vietnam",
+        "duration": ""
     },
     {
         "city": "Nha Trang",
