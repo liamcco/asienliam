@@ -1,8 +1,14 @@
 [
     {
-        "city": "Quy Nhon",
+        "city": "Hoi An",
         "country": "Vietnam",
         "duration": ""
+    },
+    {
+        "city": "Quy Nhon",
+        "country": "Vietnam",
+        "duration": "29 SEP - 30 SEP",
+        "image": "quynhon.jpg"
     },
     {
         "city": "Nha Trang",
