@@ -42,8 +42,9 @@
             "country": "Sweden",
             "cities": [
                 {
-                    "city": "Göteborg",
-                    "duration": "12 SEP"
+                    "city": "Åmål",
+                    "duration": "12 SEP",
+                    "image": "amal.jpg"
                 }
             ]
         }
