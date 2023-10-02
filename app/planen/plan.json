@@ -3,20 +3,16 @@
         "country": "Vietnam",
         "cities": [
             {
-                "name": "Hue",
+                "name": "Khe Sanh",
                 "date": "3 OKT"
             },
             {
-                "name": "Khe Sanh",
+                "name": "Phong Nha",
                 "date": "4 OKT"
             },
             {
-                "name": "Phong Nha",
-                "date": "5 OKT"
-            },
-            {
                 "name": "Ninh Binh",
-                "date": "7 OKT"
+                "date": "6 OKT"
             },
             {
                 "name": "Mai Chau",
