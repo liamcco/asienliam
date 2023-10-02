@@ -1,8 +1,13 @@
 [
     {
+        "city": "Hue",
+        "country" : "Vietnam",
+        "duration": ""
+    },
+    {
         "city": "Hoi An",
         "country": "Vietnam",
-        "duration": ""
+        "duration": "30 SEP - 2 OKT"
     },
     {
         "city": "Quy Nhon",
