@@ -1,49 +1,51 @@
 [
-    {
-        "city": "Hue",
-        "country" : "Vietnam",
-        "duration": ""
-    },
-    {
-        "city": "Hoi An",
-        "country": "Vietnam",
-        "duration": "30 SEP - 2 OKT",
-        "image": "hoian.jpg"
-    },
-    {
-        "city": "Quy Nhon",
-        "country": "Vietnam",
-        "duration": "29 SEP - 30 SEP",
-        "image": "quynhon.jpg"
-    },
-    {
-        "city": "Nha Trang",
-        "country": "Vietnam",
-        "duration": "28 SEP - 29 SEP",
-        "image": "nhatrang.jpg"
-    },
-    {
-        "city": "Da Lat",
-        "country": "Vietnam",
-        "duration": "26 SEP - 28 SEP",
-        "image": "dalat.jpg"
-    },
-    {
-        "city": "Mui Ne",
-        "country": "Vietnam",
-        "duration": "24 SEP - 26 SEP",
-        "image": "muine.jpg"
-    },
-    {
-        "city": "Ho Chi Minh City",
-        "country": "Vietnam",
-        "duration": "14 SEP - 24 SEP",
-        "image": "saigon.jpg"
-    },
-    {
-        "city": "Åmål",
-        "country": "Sweden",
-        "duration": "12 SEP",
-        "image": "amal.jpg"
-    }
+        {
+            "country": "Vietnam",
+            "cities": [
+                {
+                    "city": "Hue",
+                    "duration": ""
+                },
+                {
+                    "city": "Hoi An",
+                    "duration": "30 SEP - 2 OKT",
+                    "image": "hoian.jpg"
+                },
+                {
+                    "city": "Quy Nhon",
+                    "duration": "29 SEP - 30 SEP",
+                    "image": "quynhon.jpg"
+                },
+                {
+                    "city": "Nha Trang",
+                    "duration": "28 SEP - 29 SEP",
+                    "image": "nhatrang.jpg"
+                },
+                {
+                    "city": "Da Lat",
+                    "duration": "26 SEP - 28 SEP",
+                    "image": "dalat.jpg"
+                },
+                {
+                    "city": "Mui Ne",
+                    "duration": "24 SEP - 26 SEP",
+                    "image": "muine.jpg"
+                },
+                {
+                    "city": "Ho Chi Minh City",
+                    "duration": "14 SEP - 24 SEP",
+                    "image": "saigon.jpg"
+                }
+            ]
+        },
+        {
+            "country": "Sweden",
+            "cities": [
+                {
+                    "city": "Åmål",
+                    "duration": "12 SEP",
+                    "image": "amal.jpg"
+                }
+            ]
+        }
 ]
