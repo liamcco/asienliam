@@ -1,10 +1,11 @@
 import { FaLocationArrow, FaMapPin } from "react-icons/fa";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import clsx from "clsx";
 
 interface Props {
   city: string;
-  duration: string;
+  duration?: string;
   image?: string;
   grid: boolean;
   handleClick?: () => void;
@@ -16,20 +17,18 @@ export default function Location(props: Props) {
 
   return (
     <motion.div
-      className={
-        props.grid
-          ? "w-full flex items-center flex-col justify-end"
-          : "w-full flex items-center justify-between"
-      }
+      className={clsx(
+        "w-full flex items-center",
+        props.grid ? "flex-col justify-end" : "justify-between"
+      )}
     >
       <motion.div
-        className={
-          props.grid
-            ? props.duration
-              ? "z-10 absolute bg-slate-300 rounded-md pr-6"
-              : "z-10 absolute bg-purple-400 rounded-md pr-6"
-            : ""
-        }
+        className={clsx(
+          props.grid && [
+            "z-10 absolute rounded-md pr-6",
+            props.duration ? "bg-slate-300" : "bg-purple-400",
+          ]
+        )}
         layout
       >
         <div className="flex items-center">
@@ -38,32 +37,29 @@ export default function Location(props: Props) {
               <FaMapPin />
             ) : (
               <FaLocationArrow
-                className={props.grid ? "" : "text-purple-600"}
+                className={clsx(!props.grid && "text-purple-600")}
               />
             )}
           </div>
           <div>
             <h1 className="font-bold">{props.city}</h1>
-            {props.duration == "" ? current : <p>{props.duration}</p>}
+            <p className={clsx(!props.duration && "text-gray-600")}>
+              {props.duration ?? "CURRENTLY IN"}
+            </p>
           </div>
         </div>
       </motion.div>
       {props.duration && (
         <motion.button
-          className={
-            props.grid
-              ? "rounded-full overflow-hidden border-2 z-0 mb-4"
-              : "rounded-full overflow-hidden border-2"
-          }
+          className={clsx(
+            "rounded-full overflow-hidden border-2",
+            props.grid && "z-0 mb-4"
+          )}
           onClick={props.handleClick}
           layout
         >
           <Image
-            src={
-              props.image
-                ? "/assets/photos/" + props.image
-                : "/assets/photos/fallback.jpg"
-            }
+            src={"/assets/photos/" + props.image ?? "fallback.jpg"}
             alt={"Photo from city"}
             width={512}
             height={512}
