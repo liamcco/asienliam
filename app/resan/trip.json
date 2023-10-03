@@ -41,8 +41,9 @@
         "image": "saigon.jpg"
     },
     {
-        "city": "Göteborg",
+        "city": "Åmål",
         "country": "Sweden",
-        "duration": "12 SEP"
+        "duration": "12 SEP",
+        "image": "amal.jpg"
     }
 ]
