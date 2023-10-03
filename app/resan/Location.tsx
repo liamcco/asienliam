@@ -24,13 +24,23 @@ export default function Location(props: Props) {
     >
       <motion.div
         className={
-          props.grid ? "z-10 absolute bg-slate-300 rounded-md pr-6" : ""
+          props.grid
+            ? props.duration
+              ? "z-10 absolute bg-slate-300 rounded-md pr-6"
+              : "z-10 absolute bg-purple-400 rounded-md pr-6"
+            : ""
         }
         layout
       >
         <div className="flex items-center">
           <div className="p-4">
-            {props.duration ? <FaMapPin /> : <FaLocationArrow />}
+            {props.duration ? (
+              <FaMapPin />
+            ) : (
+              <FaLocationArrow
+                className={props.grid ? "" : "text-purple-600"}
+              />
+            )}
           </div>
           <div>
             <h1 className="font-bold">{props.city}</h1>
@@ -38,16 +48,16 @@ export default function Location(props: Props) {
           </div>
         </div>
       </motion.div>
-      <motion.button
-        className={
-          props.grid
-            ? "rounded-full overflow-hidden border-2 z-0 mb-4"
-            : "rounded-full overflow-hidden border-2"
-        }
-        onClick={props.handleClick}
-        layout
-      >
-        {props.duration && (
+      {props.duration && (
+        <motion.button
+          className={
+            props.grid
+              ? "rounded-full overflow-hidden border-2 z-0 mb-4"
+              : "rounded-full overflow-hidden border-2"
+          }
+          onClick={props.handleClick}
+          layout
+        >
           <Image
             src={
               props.image
@@ -62,8 +72,8 @@ export default function Location(props: Props) {
               height: props.grid ? imageSize * 5 : imageSize,
             }}
           />
-        )}
-      </motion.button>
+        </motion.button>
+      )}
     </motion.div>
   );
 }
