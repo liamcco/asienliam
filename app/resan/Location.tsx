@@ -47,20 +47,22 @@ export default function Location(props: Props) {
         onClick={props.handleClick}
         layout
       >
-        <Image
-          src={
-            props.image
-              ? "/assets/photos/" + props.image
-              : "/assets/photos/fallback.jpg"
-          }
-          alt={"Photo from city"}
-          width={512}
-          height={512}
-          style={{
-            width: props.grid ? imageSize * 5 : imageSize,
-            height: props.grid ? imageSize * 5 : imageSize,
-          }}
-        />
+        {props.duration && (
+          <Image
+            src={
+              props.image
+                ? "/assets/photos/" + props.image
+                : "/assets/photos/fallback.jpg"
+            }
+            alt={"Photo from city"}
+            width={512}
+            height={512}
+            style={{
+              width: props.grid ? imageSize * 5 : imageSize,
+              height: props.grid ? imageSize * 5 : imageSize,
+            }}
+          />
+        )}
       </motion.button>
     </motion.div>
   );
