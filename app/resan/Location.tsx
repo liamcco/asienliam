@@ -19,7 +19,8 @@ export default function Location(props: Props) {
     <motion.div
       className={clsx(
         "w-full flex items-center",
-        props.grid ? "flex-col justify-end" : "justify-between"
+        props.grid ? "flex-col justify-end" : "justify-between",
+        !props.duration && "mb-4"
       )}
     >
       <motion.div
