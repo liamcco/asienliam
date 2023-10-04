@@ -3,7 +3,12 @@
             "country": "Vietnam",
             "cities": [
                 {
-                    "city": "Hue"
+                    "city": "Khe Sanh"
+                },
+                {
+                    "city": "Hue",
+                    "duration": "2 OKT - 4 OKT",
+                    "image": "hue.jpg"
                 },
                 {
                     "city": "Hoi An",
