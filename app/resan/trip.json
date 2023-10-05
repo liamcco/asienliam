@@ -3,7 +3,9 @@
             "country": "Vietnam",
             "cities": [
                 {
-                    "city": "Khe Sanh"
+                    "city": "Khe Sanh",
+                    "duration": "4 OKT - 5 OKT",
+                    "image": "khesanh.jpg"
                 },
                 {
                     "city": "Hue",
