@@ -3,10 +3,6 @@
         "country": "Vietnam",
         "cities": [
             {
-                "name": "Ninh Binh",
-                "date": "7 OKT"
-            },
-            {
                 "name": "Mai Chau",
                 "date": "8 OKT"
             },
