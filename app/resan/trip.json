@@ -3,7 +3,12 @@
             "country": "Vietnam",
             "cities": [
                 {
-                    "city": "Phong Nha"
+                    "city": "Ninh Binh"
+                },
+                {
+                    "city": "Phong Nha",
+                    "duration": "5 OKT - 6 OKT",
+                    "image": "phongnha.jpg"
                 },
                 {
                     "city": "Khe Sanh",
