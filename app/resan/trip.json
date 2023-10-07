@@ -1,10 +1,9 @@
-[
+{
+    "currently": "Ninh Binh",
+    "past": [
         {
             "country": "Vietnam",
             "cities": [
-                {
-                    "city": "Ninh Binh"
-                },
                 {
                     "city": "Phong Nha",
                     "duration": "5 OKT - 6 OKT",
@@ -62,4 +61,5 @@
                 }
             ]
         }
-]
+    ]
+}
