@@ -1,7 +1,7 @@
-import { FaLocationArrow, FaMapPin } from "react-icons/fa";
+import { FaMapPin } from "react-icons/fa";
 import Image from "next/image";
-import { motion } from "framer-motion";
 import clsx from "clsx";
+import { motion } from "framer-motion";
 
 interface Props {
   city: string;
@@ -12,49 +12,39 @@ interface Props {
 }
 
 export default function Location(props: Props) {
-  const current = <p className="text-gray-600">CURRENTLY IN</p>;
   const imageSize = 40;
 
   return (
     <motion.div
+      layout
       className={clsx(
-        "w-full flex items-center",
-        props.grid ? "flex-col justify-end" : "justify-between",
-        !props.duration && "mb-4"
+        "w-full flex items-center my-4 justify-between",
+        props.grid && "flex-col-reverse justify-end"
       )}
     >
       <motion.div
-        className={clsx(
-          props.grid && [
-            "z-10 absolute rounded-md pr-6",
-            props.duration ? "bg-slate-300" : "bg-purple-400",
-          ]
-        )}
+        className="z-10 rounded-md pr-6"
+        style={{
+          position: props.grid ? "absolute" : "relative",
+        }}
+        animate={{
+          background: props.grid ? "rgba(200, 200, 200)" : "",
+        }}
         layout
       >
         <div className="flex items-center">
-          <div className="p-4">
-            {props.duration ? (
-              <FaMapPin />
-            ) : (
-              <FaLocationArrow
-                className={clsx(!props.grid && "text-purple-600")}
-              />
-            )}
-          </div>
+          <FaMapPin className="text-xl mx-4" />
           <div>
             <h1 className="font-bold">{props.city}</h1>
-            <p className={clsx(!props.duration && "text-gray-600")}>
-              {props.duration ?? "CURRENTLY IN"}
-            </p>
+            <p className="text-gray-600">{props.duration}</p>
           </div>
         </div>
       </motion.div>
       {props.duration && (
         <motion.button
           className={clsx(
-            "rounded-full overflow-hidden border-2",
-            props.grid && "z-0 mb-4"
+            "rounded-full overflow-hidden border-2 z-0",
+            props.grid ? "w-60" : "w-14"
           )}
           onClick={props.handleClick}
           layout
@@ -65,8 +55,7 @@ export default function Location(props: Props) {
             width={512}
             height={512}
             style={{
-              width: props.grid ? imageSize * 5 : imageSize,
-              height: props.grid ? imageSize * 5 : imageSize,
+              objectFit: "cover",
             }}
           />
         </motion.button>
