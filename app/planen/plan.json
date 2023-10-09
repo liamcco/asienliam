@@ -3,14 +3,6 @@
         "country": "Vietnam",
         "cities": [
             {
-                "name": "Mai Chau",
-                "date": "8 OKT"
-            },
-            {
-                "name": "Nghia Lo",
-                "date": "9 OKT"
-            },
-            {
                 "name": "Mu Cang Chai",
                 "date": "10 OKT"
             },
