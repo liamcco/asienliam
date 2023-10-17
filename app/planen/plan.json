@@ -1,64 +1,10 @@
 [
     {
-        "country": "Vietnam",
+        "country": "Australia",
         "cities": [
             {
-                "name": "Mu Cang Chai",
-                "date": "10 OKT"
-            },
-            {
-                "name": "Sapa",
-                "date": "11 OKT"
-            },
-            {
-                "name": "Ha Giang",
-                "date": "13 OKT"
-            },
-            {
-                "name": "Du Gia",
-                "date": "14 OKT"
-            },
-            {
-                "name": "Dong Van",
-                "date": "15 OKT"
-            },
-            {
-                "name": "Bao Lac",
-                "date": "16 OKT"
-            },
-            {
-                "name": "Ban Gioc Waterfall",
-                "date": "17 OKT"
-            },
-            {
-                "name": "Bac San Valley",
-                "date": "18 OKT"
-            },
-            {
-                "name": "Cat Ba Island",
-                "date": "19 OKT"
-            },
-            {
-                "name": "Hanoi",
-                "date": "22 OKT"
-            }
-        ]
-    },
-    {
-        "country": "Laos",
-        "cities": [
-            {
-                "name": "Luang Prabang",
-                "date": "29 OKT"
-            }
-        ]
-    },
-    {
-        "country": "Kambodja",
-        "cities": [
-            {
-                "name": "Phnom Penh",
-                "date": "18 NOV"
+                "name": "Sydney",
+                "date": "27 OKT"
             }
         ]
     },
@@ -67,7 +13,7 @@
         "cities": [
             {
                 "name": "Wellington",
-                "date": "24 DEC"
+                "date": "4 NOV"
             }
         ]
     },
