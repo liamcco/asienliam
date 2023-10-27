@@ -1,14 +1,5 @@
 [
     {
-        "country": "Australia",
-        "cities": [
-            {
-                "name": "Sydney",
-                "date": "27 OKT"
-            }
-        ]
-    },
-    {
         "country": "Nya Zealand",
         "cities": [
             {
