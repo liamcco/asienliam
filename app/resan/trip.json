@@ -1,9 +1,18 @@
 {
-    "currently": "Hanoi",
+    "currently": "Sydney",
     "past": [
+        {
+            "country": "Australia",
+            "cities": []
+        },
         {
             "country": "Vietnam",
             "cities": [
+                {
+                    "city": "Hanoi",
+                    "duration": "13 OKT - 26 OKT",
+                    "image": "hanoi.jpg"
+                },
                 {
                     "city": "Mai Chau",
                     "duration": "8 OKT - 13 OKT",
