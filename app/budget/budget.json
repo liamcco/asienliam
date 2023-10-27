@@ -5,11 +5,11 @@
         "prices": [
             {
                 "name": "Street food",
-                "price": 12
+                "price": 80
             },
             {
                 "name": "Resturant",
-                "price": 45
+                "price": 150
             }
         ]
     },
@@ -19,11 +19,11 @@
         "prices": [
             {
                 "name": "Beer",
-                "price": 9
+                "price": 70
             },
             {
                 "name": "Coffee",
-                "price": 7
+                "price": 40
             }
         ]
     },
@@ -33,25 +33,7 @@
         "prices": [
             {
                 "name": "Hostel",
-                "price": 30
-            },
-            {
-                "name": "Hotel",
-                "price": 100
-            }
-        ]
-    },
-    {
-        "name": "various",
-        "color": "rgb(110 231 183)",
-        "prices": [
-            {
-                "name": "Full tank",
-                "price": 40
-            },
-            {
-                "name": "Massage",
-                "price": 90
+                "price": 300
             }
         ]
     }
