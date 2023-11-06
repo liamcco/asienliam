@@ -1,9 +1,15 @@
 {
-    "currently": "Sydney",
+    "currently": "Wellington",
     "past": [
         {
             "country": "Australia",
-            "cities": []
+            "cities": [
+                {
+                    "city": "Sydney",
+                    "duration": "27 OKT - 5 NOV",
+                    "image": "sydney.jpg"
+                }
+            ]
         },
         {
             "country": "Vietnam",
