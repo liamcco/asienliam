@@ -1,14 +1,5 @@
 [
     {
-        "country": "Nya Zealand",
-        "cities": [
-            {
-                "name": "Wellington",
-                "date": "4 NOV"
-            }
-        ]
-    },
-    {
         "country": "Thailand",
         "cities": [
             {

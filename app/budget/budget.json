@@ -26,15 +26,5 @@
                 "price": 40
             }
         ]
-    },
-    {
-        "name": "accomodation",
-        "color": "rgb(252 211 77)",
-        "prices": [
-            {
-                "name": "Hostel",
-                "price": 300
-            }
-        ]
     }
 ]
