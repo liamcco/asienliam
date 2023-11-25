@@ -1,8 +1,18 @@
-export default function LuckaPage() {
+interface Props {
+  params: {
+    id: string;
+  };
+}
+
+export default function LuckaPage(props: Props) {
+  const id = parseInt(props.params.id, 10);
+  if (isNaN(id) || id < 1 || id > 25) {
+    return <div>Detta är inte en giltig lucka</div>;
+  }
+
   return (
     <div>
-      <h1>Lucka</h1>
-      <p>Detta är en lucka</p>
+      <p>Detta är lucka {props.params.id}</p>
     </div>
   );
 }
