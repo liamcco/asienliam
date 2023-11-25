@@ -12,7 +12,9 @@ export default function LuckaPage(props: Props) {
 
   return (
     <div>
-      <p>Detta är lucka {props.params.id}</p>
+      <h1 className="text-center font-extrabold text-2xl">
+        LUCKA {props.params.id}
+      </h1>
     </div>
   );
 }
