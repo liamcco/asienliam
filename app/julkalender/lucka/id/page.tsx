@@ -1,4 +1,4 @@
-export default function Lucka() {
+export default function LuckaPage() {
   return (
     <div>
       <h1>Lucka</h1>
