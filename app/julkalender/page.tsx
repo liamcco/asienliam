@@ -3,7 +3,7 @@ import Lucka from "./Lucka";
 export default function Julkalender() {
   return (
     <div>
-      <div className="grid grid-cols-5 auto-rows-auto gap-1 justify-items-stretch">
+      <div className="grid grid-cols-5 auto-rows-auto gap-2 justify-items-stretch">
         <div className="col-start-3 col-end-5 row-start-5 row-end-7">
           <Lucka index={1} />
         </div>
