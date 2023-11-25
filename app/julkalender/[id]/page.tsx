@@ -22,7 +22,7 @@ export default function LuckaPage(props: Props) {
     (dayForOpening.getTime() - today.getTime()) / (1000 * 60 * 60 * 24)
   );
 
-  if (today.getDate() == dayForOpening.getDate() || 1 == 1) {
+  if (today.getDate() == dayForOpening.getDate()) {
     return <Lucka id={id} />;
   }
 
