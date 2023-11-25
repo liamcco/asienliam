@@ -19,8 +19,11 @@ export default function Lucka(props: Props) {
   }
 
   return (
-    <div className="rounded-lg bg-slate-300 text-center flex flex-col justify-center aspect-square">
+    <a
+      href={"/julkalender/" + props.index}
+      className="rounded-lg bg-slate-300 text-center flex flex-col justify-center aspect-square"
+    >
       <h1 className="text-3xl font-bold">{props.index}</h1>
-    </div>
+    </a>
   );
 }
