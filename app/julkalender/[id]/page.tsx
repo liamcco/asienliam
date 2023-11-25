@@ -1,6 +1,8 @@
 import { BiSolidLock } from "react-icons/bi";
 import "./animate.css";
 
+import Lucka from "./Lucka";
+
 interface Props {
   params: {
     id: string;
@@ -20,8 +22,8 @@ export default function LuckaPage(props: Props) {
     (dayForOpening.getTime() - today.getTime()) / (1000 * 60 * 60 * 24)
   );
 
-  if (today.getDate() == dayForOpening.getDate()) {
-    return <h1>Lucka opened</h1>;
+  if (today.getDate() == dayForOpening.getDate() || 1 == 1) {
+    return <Lucka id={id} />;
   }
 
   return (
