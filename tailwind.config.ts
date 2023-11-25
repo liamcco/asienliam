@@ -8,10 +8,25 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      gridColumnStart: {
+        '8': '8',
+        '9': '9',
+        '10': '10',
+      },
+      gridColumnEnd: {
+        '8': '8',
+        '9': '9',
+        '10': '10',
+      },
+      gridRowStart: {
+        '8': '8',
+        '9': '9',
+        '10': '10',
+      },
+      gridRowEnd: {
+        '8': '8',
+        '9': '9',
+        '10': '10',
       },
     },
   },
