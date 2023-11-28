@@ -46,7 +46,7 @@ export default function Lucka(props: Props) {
     <a
       href={"/julkalender/" + props.index}
       className={clsx(
-        "rounded-lg text-center flex flex-col justify-center aspect-square",
+        "rounded-lg text-center flex flex-col justify-center aspect-square hover:no-underline",
         state === "closed" && `bg-slate-300 shadow-md animate-wiggle`,
         state === "open" && ["shadow-inner text-white", colors[props.index - 1]]
       )}
