@@ -18,7 +18,7 @@ export default function LuckaPage(props: Props) {
   const dayForOpening = new Date("December " + id + " 2023");
   const today = new Date();
 
-  const daysTilOpening = Math.floor(
+  const daysTilOpening = Math.ceil(
     (dayForOpening.getTime() - today.getTime()) / (1000 * 60 * 60 * 24)
   );
 
