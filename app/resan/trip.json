@@ -1,6 +1,21 @@
 {
-    "currently": "Wellington",
+    "currently": "Christchurch",
     "past": [
+        {
+            "country": "New Zealand",
+            "cities": [
+                {
+                    "city": "Picton",
+                    "duration": "30 NOV - 1 DEC",
+                    "image": "picton.jpg"
+                },
+                {
+                    "city": "Wellington",
+                    "duration": "5 NOV - 30 NOV",
+                    "image": "welly.jpg"
+                }
+            ]
+        },
         {
             "country": "Australia",
             "cities": [
