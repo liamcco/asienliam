@@ -33,7 +33,7 @@ const colors = [
   "bg-teal-500",
 ];
 
-type State = "closed" | "open" | "today";
+type State = "closed" | "open";
 
 export default function Lucka(props: Props) {
   const today = new Date();
@@ -41,6 +41,7 @@ export default function Lucka(props: Props) {
 
   let state: State = "closed";
   if (luckDate < today) state = "open";
+  if (luckDate.getDate() === today.getDate()) state = "closed";
 
   return (
     <a
