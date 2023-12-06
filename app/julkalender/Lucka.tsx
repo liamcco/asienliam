@@ -42,6 +42,8 @@ export default function Lucka(props: Props) {
   let state: State = "closed";
   if (luckDate < today) state = "open";
 
+  console.log(today, luckDate);
+
   return (
     <a
       href={"/julkalender/" + props.index}

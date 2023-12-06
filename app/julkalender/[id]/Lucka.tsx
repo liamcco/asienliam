@@ -6,7 +6,6 @@ interface Props {
 
 export default async function Lucka(props: Props) {
   const luckaData = await import(`./luckor/${props.id}.json`);
-  console.log(luckaData);
 
   return (
     <div>
