@@ -5,6 +5,16 @@
             "country": "New Zealand",
             "cities": [
                 {
+                    "city": "Tekapo",
+                    "duration": "4 NOV - 6 DEC",
+                    "image": "tekapo.jpg"
+                },
+                {
+                    "city": "Christchurch",
+                    "duration": "1 NOV - 4 DEC",
+                    "image": "christchurch.jpg"
+                },
+                {
                     "city": "Picton",
                     "duration": "30 NOV - 1 DEC",
                     "image": "picton.jpg"

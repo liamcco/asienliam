@@ -3,32 +3,16 @@
         "country": "Nya Zealand",
         "cities": [
             {
-                "name": "Picton",
-                "date": "30 NOV"
-            },
-            {
-                "name": "Christchurch",
-                "date": "1 DEC"
-            },
-            {
-                "name": "Lake Tekapo",
-                "date": "4 DEC"
-            },
-            {
-                "name": "Queenstown",
-                "date": "6 DEC"
-            },
-            {
-                "name": "Wanaka",
-                "date": "11 DEC"
-            },
-            {
                 "name": "Franz Josef",
-                "date": "12 DEC"
+                "date": "9 DEC"
+            },
+            {
+                "name": "Punakaiki",
+                "date": "10 DEC"
             },
             {
                 "name": "Nelson",
-                "date": "13 DEC"
+                "date": "12 DEC"
             }
         ]
     },
