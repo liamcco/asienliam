@@ -1,9 +1,24 @@
 {
-    "currently": "Christchurch",
+    "currently": "Nelson",
     "past": [
         {
             "country": "New Zealand",
             "cities": [
+                {
+                    "city": "Punakaiki",
+                    "duration": "10 NOV - 12 DEC",
+                    "image": "punakaiki.jpg"
+                },
+                {
+                    "city": "Franz Josef",
+                    "duration": "9 NOV - 10 DEC",
+                    "image": "franzjosef.jpg"
+                },
+                {
+                    "city": "Queenstown",
+                    "duration": "6 NOV - 9 DEC",
+                    "image": "queenstown.jpg"
+                },
                 {
                     "city": "Tekapo",
                     "duration": "4 NOV - 6 DEC",

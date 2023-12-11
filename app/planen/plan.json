@@ -3,15 +3,31 @@
         "country": "Nya Zealand",
         "cities": [
             {
-                "name": "Franz Josef",
-                "date": "9 DEC"
+                "name": "Wellington",
+                "date": "20 DEC"
             },
             {
-                "name": "Punakaiki",
+                "name": "Taupo",
+                "date": "27 DEC"
+            },
+            {
+                "name": "Napier",
+                "date": "28 DEC"
+            },
+            {
+                "name": "Rotorua",
+                "date": "7 DEC"
+            },
+            {
+                "name": "Mount Maunganui",
+                "date": "8 DEC"
+            },
+            {
+                "name": "Waipu",
                 "date": "10 DEC"
             },
             {
-                "name": "Nelson",
+                "name": "Auckland",
                 "date": "12 DEC"
             }
         ]
@@ -21,7 +37,15 @@
         "cities": [
             {
                 "name": "Bangkok",
-                "date": "22 JAN"
+                "date": "15 JAN"
+            },
+            {
+                "name": "Chang Mai",
+                "date": "18 JAN"
+            },
+            {
+                "name": "Krabi",
+                "date": "25 JAN"
             }
         ]
     },
