@@ -1,6 +1,7 @@
 import Lucka from "./Lucka";
 
 export default function Julkalender() {
+  return <p>Liams julkalender 2024 är runt hörnet!</p>;
   return (
     <div>
       <div className="grid grid-cols-5 auto-rows-auto gap-2 justify-items-stretch">

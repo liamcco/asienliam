@@ -1,9 +1,19 @@
 {
-    "currently": "Nelson",
+    "currently": "Napier",
     "past": [
         {
             "country": "New Zealand",
             "cities": [
+                {
+                    "city": "Lower Hutt",
+                    "duration": "25 NOV - 27 DEC",
+                    "image": "lowerhutt.jpg"
+                },
+                {
+                    "city": "Nelson",
+                    "duration": "12 NOV - 20 DEC",
+                    "image": "nelson.jpg"
+                },
                 {
                     "city": "Punakaiki",
                     "duration": "10 NOV - 12 DEC",

@@ -15,14 +15,6 @@ export default function Navbar() {
           <li>
             <a href="/budget">Budget</a>
           </li>
-          <li className="mx-auto sm:ml-auto sm:mr-0">
-            <a
-              href="/julkalender"
-              className="p-2 bg-slate-200 border rounded-xl"
-            >
-              ✨ Liams Julkalender 2023 🎅🏻
-            </a>
-          </li>
         </ul>
       </div>
     </nav>

@@ -3,16 +3,8 @@
         "country": "Nya Zealand",
         "cities": [
             {
-                "name": "Wellington",
-                "date": "20 DEC"
-            },
-            {
-                "name": "Taupo",
-                "date": "27 DEC"
-            },
-            {
-                "name": "Napier",
-                "date": "28 DEC"
+                "name": "The farm",
+                "date": "2 JAN"
             },
             {
                 "name": "Rotorua",
@@ -23,12 +15,12 @@
                 "date": "8 JAN"
             },
             {
-                "name": "Waipu",
-                "date": "10 JAN"
+                "name": "Cambridge",
+                "date": "9 JAN"
             },
             {
                 "name": "Auckland",
-                "date": "12 JAN"
+                "date": "10 JAN"
             }
         ]
     },
