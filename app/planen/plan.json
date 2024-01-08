@@ -3,24 +3,28 @@
         "country": "Nya Zealand",
         "cities": [
             {
-                "name": "The farm",
-                "date": "2 JAN"
-            },
-            {
-                "name": "Rotorua",
+                "name": "Taupo",
                 "date": "7 JAN"
             },
             {
-                "name": "Mount Maunganui",
+                "name": "Rotorua",
                 "date": "8 JAN"
             },
             {
-                "name": "Cambridge",
+                "name": "Mount Maunganui",
                 "date": "9 JAN"
             },
             {
-                "name": "Auckland",
+                "name": "Cambridge",
                 "date": "10 JAN"
+            },
+            {
+                "name": "Waipu",
+                "date": "11 JAN"
+            },
+            {
+                "name": "Auckland",
+                "date": "12 JAN"
             }
         ]
     },

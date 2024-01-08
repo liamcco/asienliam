@@ -1,42 +1,62 @@
 {
-    "currently": "Napier",
+    "currently": "Rotorua",
     "past": [
         {
             "country": "New Zealand",
             "cities": [
                 {
+                    "city": "Rotorua",
+                    "duration": "8 JAN - 9 JAN",
+                    "image": "pongarua.jpg"
+                },
+                {
+                    "city": "Taupo",
+                    "duration": "7 JAN - 8 JAN",
+                    "image": "taupo.jpg"
+                },
+                {
+                    "city": "The Farm (Pongarua)",
+                    "duration": "1 JAN - 4 JAN",
+                    "image": "pongarua.jpg"
+                },
+                {
+                    "city": "Napier",
+                    "duration": "27 DEC - 1 JAN",
+                    "image": "napier.jpg"
+                },
+                {
                     "city": "Lower Hutt",
-                    "duration": "25 NOV - 27 DEC",
+                    "duration": "25 DEC - 27 DEC",
                     "image": "lowerhutt.jpg"
                 },
                 {
                     "city": "Nelson",
-                    "duration": "12 NOV - 20 DEC",
+                    "duration": "12 DEC - 20 DEC",
                     "image": "nelson.jpg"
                 },
                 {
                     "city": "Punakaiki",
-                    "duration": "10 NOV - 12 DEC",
+                    "duration": "10 DEC - 12 DEC",
                     "image": "punakaiki.jpg"
                 },
                 {
                     "city": "Franz Josef",
-                    "duration": "9 NOV - 10 DEC",
+                    "duration": "9 DEC - 10 DEC",
                     "image": "franzjosef.jpg"
                 },
                 {
                     "city": "Queenstown",
-                    "duration": "6 NOV - 9 DEC",
+                    "duration": "6 DEC - 9 DEC",
                     "image": "queenstown.jpg"
                 },
                 {
                     "city": "Tekapo",
-                    "duration": "4 NOV - 6 DEC",
+                    "duration": "4 DEC - 6 DEC",
                     "image": "tekapo.jpg"
                 },
                 {
                     "city": "Christchurch",
-                    "duration": "1 NOV - 4 DEC",
+                    "duration": "1 DEC - 4 DEC",
                     "image": "christchurch.jpg"
                 },
                 {
