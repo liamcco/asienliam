@@ -3,14 +3,6 @@
         "country": "Nya Zealand",
         "cities": [
             {
-                "name": "Taupo",
-                "date": "7 JAN"
-            },
-            {
-                "name": "Rotorua",
-                "date": "8 JAN"
-            },
-            {
                 "name": "Mount Maunganui",
                 "date": "9 JAN"
             },
