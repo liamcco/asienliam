@@ -1,158 +1,203 @@
 {
-    "currently": "Rotorua",
+    "currently": "Krabi",
     "past": [
         {
-            "country": "New Zealand",
+            "country": "Thailand",
+            "slug": "thailand",
             "cities": [
+                {
+                    "city": "Pai",
+                    "duration": "22 JAN - 27 JAN",
+                    "slug": "pai"
+                },
+                {
+                    "city": "Chiang Mai",
+                    "duration": "19 JAN - 22 JAN",
+                    "slug": "chiangmai"
+                },
+                {
+                    "city": "Bangkok",
+                    "duration": "15 JAN - 18 JAN",
+                    "slug": "bangkok"
+                }
+            ]
+        },
+        {
+            "country": "New Zealand",
+            "slug": "newzealand",
+            "cities": [
+                {
+                    "city": "Auckland",
+                    "duration": "12 JAN - 14 JAN",
+                    "slug": "auckland"
+                },
+                {
+                    "city": "Waipu",
+                    "duration": "11 JAN - 12 JAN",
+                    "slug": "waipu"
+                },
+                {
+                    "city": "Cambridge",
+                    "duration": "10 JAN - 11 JAN",
+                    "slug": "cambridge"
+                },
+                {
+                    "city": "Tauranga",
+                    "duration": "9 JAN - 10 JAN",
+                    "slug": "tauranga"
+                },
                 {
                     "city": "Rotorua",
                     "duration": "8 JAN - 9 JAN",
-                    "image": "rotorua.jpg"
+                    "slug": "rotorua"
                 },
                 {
                     "city": "Taupo",
                     "duration": "7 JAN - 8 JAN",
-                    "image": "taupo.jpg"
+                    "slug": "taupo"
                 },
                 {
                     "city": "The Farm (Pongarua)",
                     "duration": "1 JAN - 4 JAN",
-                    "image": "pongarua.jpg"
+                    "slug": "pongarua"
                 },
                 {
                     "city": "Napier",
                     "duration": "27 DEC - 1 JAN",
-                    "image": "napier.jpg"
+                    "slug": "napier"
                 },
                 {
                     "city": "Lower Hutt",
                     "duration": "25 DEC - 27 DEC",
-                    "image": "lowerhutt.jpg"
+                    "slug": "lowerhutt"
                 },
                 {
                     "city": "Nelson",
                     "duration": "12 DEC - 20 DEC",
-                    "image": "nelson.jpg"
+                    "slug": "nelson"
                 },
                 {
                     "city": "Punakaiki",
                     "duration": "10 DEC - 12 DEC",
-                    "image": "punakaiki.jpg"
+                    "slug": "punakaiki"
                 },
                 {
                     "city": "Franz Josef",
                     "duration": "9 DEC - 10 DEC",
-                    "image": "franzjosef.jpg"
+                    "slug": "franzjosef"
                 },
                 {
                     "city": "Queenstown",
                     "duration": "6 DEC - 9 DEC",
-                    "image": "queenstown.jpg"
+                    "slug": "queenstown"
                 },
                 {
                     "city": "Tekapo",
                     "duration": "4 DEC - 6 DEC",
-                    "image": "tekapo.jpg"
+                    "slug": "tekapo"
                 },
                 {
                     "city": "Christchurch",
                     "duration": "1 DEC - 4 DEC",
-                    "image": "christchurch.jpg"
+                    "slug": "christchurch"
                 },
                 {
                     "city": "Picton",
                     "duration": "30 NOV - 1 DEC",
-                    "image": "picton.jpg"
+                    "slug": "picton"
                 },
                 {
                     "city": "Wellington",
                     "duration": "5 NOV - 30 NOV",
-                    "image": "welly.jpg"
+                    "slug": "welly"
                 }
             ]
         },
         {
             "country": "Australia",
+            "slug": "australia",
             "cities": [
                 {
                     "city": "Sydney",
                     "duration": "27 OKT - 5 NOV",
-                    "image": "sydney.jpg"
+                    "slug": "sydney"
                 }
             ]
         },
         {
             "country": "Vietnam",
+            "slug": "vietnam",
             "cities": [
                 {
                     "city": "Hanoi",
                     "duration": "13 OKT - 26 OKT",
-                    "image": "hanoi.jpg"
+                    "slug": "hanoi"
                 },
                 {
                     "city": "Mai Chau",
                     "duration": "8 OKT - 13 OKT",
-                    "image": "maichau.jpg"
+                    "slug": "maichau"
                 },
                 {
                     "city": "Ninh Binh",
                     "duration": "7 OKT - 8 OKT",
-                    "image": "ninhbinh.jpg"
+                    "slug": "ninhbinh"
                 },
                 {
                     "city": "Phong Nha",
                     "duration": "5 OKT - 6 OKT",
-                    "image": "phongnha.jpg"
+                    "slug": "phongnha"
                 },
                 {
                     "city": "Khe Sanh",
                     "duration": "4 OKT - 5 OKT",
-                    "image": "khesanh.jpg"
+                    "slug": "khesanh"
                 },
                 {
                     "city": "Hue",
                     "duration": "2 OKT - 4 OKT",
-                    "image": "hue.jpg"
+                    "slug": "hue"
                 },
                 {
                     "city": "Hoi An",
                     "duration": "30 SEP - 2 OKT",
-                    "image": "hoian.jpg"
+                    "slug": "hoian"
                 },
                 {
                     "city": "Quy Nhon",
                     "duration": "29 SEP - 30 SEP",
-                    "image": "quynhon.jpg"
+                    "slug": "quynhon"
                 },
                 {
                     "city": "Nha Trang",
                     "duration": "28 SEP - 29 SEP",
-                    "image": "nhatrang.jpg"
+                    "slug": "nhatrang"
                 },
                 {
                     "city": "Da Lat",
                     "duration": "26 SEP - 28 SEP",
-                    "image": "dalat.jpg"
+                    "slug": "dalat"
                 },
                 {
                     "city": "Mui Ne",
                     "duration": "24 SEP - 26 SEP",
-                    "image": "muine.jpg"
+                    "slug": "muine"
                 },
                 {
                     "city": "Ho Chi Minh City",
                     "duration": "14 SEP - 24 SEP",
-                    "image": "saigon.jpg"
+                    "slug": "saigon"
                 }
             ]
         },
         {
             "country": "Sweden",
+            "slug": "sweden",
             "cities": [
                 {
                     "city": "Åmål",
                     "duration": "12 SEP",
-                    "image": "amal.jpg"
+                    "slug": "amal"
                 }
             ]
         }

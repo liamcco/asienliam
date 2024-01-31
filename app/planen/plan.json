@@ -1,39 +1,30 @@
 [
     {
-        "country": "Nya Zealand",
-        "cities": [
-            {
-                "name": "Mount Maunganui",
-                "date": "9 JAN"
-            },
-            {
-                "name": "Cambridge",
-                "date": "10 JAN"
-            },
-            {
-                "name": "Waipu",
-                "date": "11 JAN"
-            },
-            {
-                "name": "Auckland",
-                "date": "12 JAN"
-            }
-        ]
-    },
-    {
         "country": "Thailand",
         "cities": [
             {
-                "name": "Bangkok",
-                "date": "15 JAN"
+                "name": "Phi Phi",
+                "date": "5 FEB"
             },
             {
-                "name": "Chang Mai",
-                "date": "18 JAN"
+                "name": "Koh Lanta",
+                "date": "10 FEB"
             },
             {
-                "name": "Krabi",
-                "date": "25 JAN"
+                "name": "Koh Samui",
+                "date": "15 FEB"
+            },
+            {
+                "name": "Koh Tao",
+                "date": "20 FEB"
+            },
+            {
+                "name": "Koh Phangan",
+                "date": "25 FEB"
+            },
+            {
+                "name": "Koh Lipe",
+                "date": "29 FEB"
             }
         ]
     },
@@ -41,8 +32,12 @@
         "country": "Malaysia",
         "cities": [
             {
+                "name": "Langkawi",
+                "date": "10 MAR"
+            },
+            {
                 "name": "Kuala Lumpur",
-                "date": "29 FEB"
+                "date": "13 MAR"
             }
         ]
     },
@@ -51,7 +46,7 @@
         "cities": [
             {
                 "name": "Singapore",
-                "date": "25 MAR"
+                "date": "20 MAR"
             }
         ]
     },

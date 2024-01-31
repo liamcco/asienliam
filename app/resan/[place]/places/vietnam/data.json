@@ -1,0 +1,20 @@
+{
+    "type": "COUNTRY",
+    "name": "Vietnam",
+    "mainPicture": "vietnam.jpg",
+    "shortText": "Short text about Vietnam.",
+    "blog": [
+        {
+            "type": "text",
+            "content": "Introducing text about Vietnam."
+        },
+        {
+            "type": "image",
+            "content": "1.jpg"
+        },
+        {
+            "type": "text",
+            "content": "Final text about Vietnam."
+        }
+    ]
+}
